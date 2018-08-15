@@ -1,0 +1,211 @@
+\documentclass[twocolumn,iop]{emulateapj}
+
+\citestyle{hapj}
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{{figures/}}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    citecolor=blue,
+    %filecolor=magenta,      
+    %urlcolor=cyan,
+}
+ 
+\urlstyle{same}
+ 
+
+\begin{document}
+\title{Atacama Cosmology Telescope: SZ effect in IR-selected cluster candidates from the SHELA survey}
+
+\author{Brittany J.\ Fuzia, Kevin M.\ Huffenberger, Nicola Mehrtens, Casey Papovich, for the ACT collaboration}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	ABSTRACT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+We analyze the stacked Sunyaev-Zel\text{'}dovich (SZ) temperature decrement for an infrared-selected sample of galaxy cluster candidates. IR selection allows us to probe clusters at higher redshifts than typical with optically-selected samples, with objects less massive than those typical with SZ surveys. In the stacking analysis, Atacama Cosmology Telescope (ACT) measurements show a temperature decrement at 148 GHz, and an excess at the 220 GHz SZ null which we attribute to dust emission from the cluster galaxies. We correct for dust emission in the 148 GHz stack using the 220 GHz profile as a template. To extrapolate the 220 GHz signal to 148 GHz using two methods: fitting a dust SED using data from the HerS survey, and using the CIB power spectrum as measured by Planck. After cleaning our decrement using the extrapolated 220 GHz profile, we use the "universal galaxy cluster pressure profile" to fit for an average SZ signal and cluster mass. 
+\end{abstract}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	INTRODUCTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+Studies of clusters give insight into large-scale structure, galaxy evolution, dark matter dynamics, and cosmological parameters.  The Sunyaev-Zeldovich (SZ) spectral distortion to the CMB holds great promise because it can identify clusters to high redshift \citep{2002ARA&A..40..643C}, but for cosmology requires understanding of the relationship between the SZ observable---typically the integrated comptonization parameter---and halo mass.  At high mass, SZ searches can find halos efficiently at all redshifts, but at lower mass it becomes more difficult.  These lower mass halos are interesting because their smaller potential wells have a harder time holding onto their gas.  They are laboratories for star formation and AGN feedback %\citep{2015MNRAS.448.2085L,2013A&A...555A..66L}.  
+At low redshift, optical surveys can identify clusters efficiently with multiband overdensity finders %\citep[e.g.][]{2007ApJ...660..221K}.  
+Stacking multiple sources lets us then use SZ to lower mass levels %\citep[e.g.][]{2013ApJ...767...38S, 2011A&A...536A..12P}.  
+At higher redshift, the infrared becomes an efficient avenue for cluster detection %\citep{2014ApJS..213...25S}.
+
+\textbf{motivation,high-z cluster formation...}
+
+The thermal SZ effect is a spectral distortion of the CMB which occurs when CMB photons interact with the hot electron gas of the intracluster medium. $\sim$ $<$ 1\% of photons gain energy through inverse Compton scattering[], shifting the observed CMB spectrum to higher frequencies. This results in a characteristic spectral dependence for the SZ effect: a flux decrement for frequencies below 217 GHz and an increment for higher frequencies, with an amplitude that is dependent on the mass of the cluster. \citep{1999PhR...310...97B,2002ARA&A..40..643C}
+The SZ signal can be expressed as a change in CMB temperature by: \begin{equation}
+\frac{\Delta T}{T_{CMB}} = y( \theta ) \cdot f( x )
+\end{equation}
+where $x = \frac{h \nu}{k T}$ and $f(x) = x \frac{e^{x} + 1}{e^{x}-1} - 4$ contains the frequency dependence of the SZ effect. The compton parameter $y$ is proportional to pressure integrated along the line of sight \citep{1972CoASP...4..173S,1970CoASP...2...66S}: 
+\begin{equation}
+y = \frac{\sigma_{T}}{m_{e} c^{2}} \int dl P(\theta, l) \end{equation} 
+The pressure is proportional to the depth of the gravitational potential well, and therefore contains the cluster mass dependence.
+Since the SZ effect is a distortion of the CMB's spectrum, the signal does not decrease with distance, making it a powerful high-redshift cosmological probe that is only limited by the mass of the cluster and the sensitivity of the telescope.
+
+\textbf{insert stellar mass stuff here....}
+
+In this paper, we adopt the flat $\Lambda$CDM cosmology from Planck 2013 data release \citep{2014A&A...571A..16P} with $H_{0}$ = 67.9 km s$^{-1}$ Mpc$^{-1}$, $\Omega_{m}$ = 0.307, $\Omega_{\Lambda}$ = 0.693. The SZ signal and mass is measured out to R$_{500}$, which is the radius enclosing 500 times the critical density at a given redshift.  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	DATA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Data}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[height= 0.9 \textheight]{5panel_rawprofs.pdf}
+\caption{Stacked profiles for all 5 bands: ACT 148, 220 GHz and HerS 500, 350, 250 $\mu m$. The main contributions to the profile at 148 GHz contains the SZ signal, plus some signal from thermal dust emission. 220 GHz is the SZ null, and contains emission which contaminates the signal at 148 GHz. The Herschel bands (500, 350, 250 $\mu m$) trace thermal dust emission in the clusters.}
+\label{fig:rawstacks}
+\end{figure}
+
+
+\subsection{Cluster Sample}
+The sample contains 45 IR-selected clusters candidates from the Spitzer-HETDEX Exploratory Large Area survey \citep[SHELA,][]{2011sptz.prop80100P}, 
+a 28 square degree IRAC survey in Stripe 82.  Multiwavelength coverage in the same field includes SDSS, HETDEX, and DECcam in the optical, NEWFIRM in K-band, Herschel in the sub-mm \citep[Herschel Stripe 82 Survey: HerS,][]{2014ApJS..210...22V}, and ACT in the microwave.  Via color selection, Mehrtens and Papovich (Texas A\&M) have provided us with $\sim 50$ color-selected cluster candidates, with photometric redshifts ranging from $z= 0.8$ -- $1.6$, containing 24-35 visible member galaxies. Two of these are already detected in the ACT SZ cluster sample. \citep{2013JCAP...07..008H}  These we discard before conducting a stacking analysis. None of the remaining objects are detected individually in SZ by ACT, so their masses must be $\lesssim 10^{14} M_\odot$, roughly ACT's mass limit.
+
+
+\subsection{ACT SZ Data} 
+The first generation of ACT had three detector arrays at frequencies of 150, 220, and 270 GHz---ideal for studying the SZ, capturing the SZ decrement, null, and increment (although the highest frequency channel had much lower sensitivity). The second generation of the experiment, ACTPol, has receivers at 90 and 150 GHZ and triple the sensitivity, has surveyed the SHELA region, and continues to take data.  AdvACT will have still better sensitivity and five bands. \textbf{what bands}
+The SZ decrement is measured using coadded ACT temperature maps from all observing seasons which overlap with the SHELA survey region - seasons 3 \& 4 of ACT and season 2 of ACTPol. \citep{2011ApJS..194...41S}??. We use 220 GHz data from seasons 3 \& 4 of ACT, which is approximately the SZ null, to constrain contamination from thermal dust emission.
+
+
+\subsection{Herschel Submillimeter Data}
+The ACT 220 GHz stacked profile shows significant non-SZ emission, as seen in \ref{fig:rawstacks}, which we attribute to dust emission from cluster member galaxies. To correct for this, we measure thermal dust emission using the source catalog provided by the Hershel Stripe 82 (HerS) survey, observed at 500, 350, and 250 microns (600, 850, 1200 GHz) \citep{2014ApJS..210...22V}.
+\textbf{more hers}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	METHODS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Methods \& Analysis}
+
+\subsection{Pressure Profile}
+We use the "Universal Pressure Profile" (UPP) of \cite{2010A&A...517A..92A}, which is calibrated using low-z X-ray clusters from REXCESS. \citep{2007A&A...469..363B} \citeauthor{2010A&A...517A..92A} fit a Generalized Navarro-Frenk-White profile allowing for a normalization that varies with mass and redshift and a deviation from self-similarity in the shape of the profile that depends on mass. The pressure at any radius $r$ (or $x \equiv r/R_{500}$) is:
+\begin{equation}
+P(r) = P_{500} \bigg[ \frac{M_{500}}{3x10^{14} h^{-1}_{70} M_{\odot}} \bigg]^{\alpha_{p} + \alpha^{\prime}_{p}(x)} \textbf{p}(x) \ h^{2}_{70} \ keV \ cm^{-3}
+\end{equation}
+where \textbf{p}(x) is the dimensionless universal pressure profile
+\begin{equation}
+\textbf{p}(x) = \frac{P_{0}}{(c_{500} x)^{\gamma} [1 + (c_{500} x)^{\alpha}]^{(\beta-\gamma)/\alpha}}
+\end{equation}
+and $\alpha^{\prime}_{p}(x)$ describes the deviation from self-similiarity
+\begin{equation}
+\alpha^{\prime}_{p}(x) = 0.10 - (\alpha_{p} + 0.10) \frac{(x/0.5)^{3}}{1. + (x/0.5)^{3}}
+\end{equation}
+Using local clusters with XMM-Newton data, \cite{2013A&A...550A.131P} update the best-fit parameters to [$P_{0},c_{500},\gamma,\alpha,\beta$] = [6.51,1.81.0.31,1.33,4.13], which we adopt in this paper.
+
+\subsection{Filter}
+Before stacking, we filter the maps using a filter designed to remove large scale CMB fluctuations without altering the small scale cluster signal. Our filter acts like a complementary tophat filter, which does not touch scales smaller than 3$\prime$, tapering down to 5$\prime$, and wiping out larger fluctuations.
+
+\subsection{Stacking}
+The cluster candidates were not individually detected in SZ by ACT. To increase S/N we "stack", or average, observations of the clusters together into 40 annular bins 0.23’ wide.
+We can write our stacked profiles in terms of their constituent signals, P, and noise, n:
+\begin{equation}
+\label{eq:prof148}
+P^{148} = P^{SZ} + \alpha P^{dust,220} + n^{det,148} + n^{CMB}
+\end{equation}
+\begin{equation}
+\label{eq:prof220}
+P^{220} = P^{dust,220} + n^{det,220} + n^{CMB}
+\end{equation}
+Where $\alpha$ is the amount of the dust signal at 220 GHz present in the 148 GHz data.
+
+To be sure that our signal is not only a feature caused by the stacking procedure, we stack on random positions in the ACT map. We would expect no signal on average, which is what we find.
+Since we are averaging measurements of many clusters over varying redshifts, we also do a bootstrap resampling of our cluster candidate positions and find... \textbf{even mention this?} 
+
+\subsection{Covariance}
+The error in each bin reflects the covariance introduced by CMB fluctuations and detector noise. The covariance matrix is calculated by performing the same stacking process on simulations that model coadded ACT and ACTPol maps. The simulations include CMB fluctuations and detector noise from the different observing seasons of ACT. 
+\textbf{show covariance matrix?}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	DUST CORRECTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Dust Correction}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5 \textwidth]{dust_correction_plot.png}
+\caption{Raw stack and dust-corrected profiles at 148 GHz. The solid blue line shows the uncorrected profile, the green and red dotted lines show the profiles after correcting for dust emission.}
+\end{figure}
+
+
+Stacking at 220 GHz, the SZ null, shows a significant excess signal, which we attribute to dust emission from cluster member galaxies. This emission is present at 148 GHz, filling in the SZ decrement and causing the sample to appear less massive. To correct for this, we use two methods to determine the dust spectral energy distribution (SED), which we use to extrapolate the 220 stacked signal to 148 GHz. 
+The corrected profile at 148 then becomes: 
+\begin{equation}
+P^{corr,148} = P^{SZ} + n^{det,148} - \alpha n^{det,220} + (1 - \alpha) n^{CMB} +..
+\end{equation}
+
+First, using the source catalog from the HerS survey \citep{2014ApJS..210...22V}, we fit a graybody spectrum, $\nu^{3+\beta}/{e^{x} - 1}$, for an amplitude and dust temperature using the total contribution of all the sources within a certain distance of the clusters. \textbf{other recent act papers?} We fix the emissivity spectral index beta to 1.5, and the redshift to the average redshift of the sample. \cite{2014A&A...561A..86M} find that setting beta to 1.5 is a good estimate when fitting spectra without enough information to constrain beta, noting that it may cause T$_{dust}$ to be slightly overestimated. To test that our graybody spectrum is robust, we fit the spectrum to sources at different radii, and also use reasonable values for T$_{dust}$ and fit for A  and z. Including sources out to varying radii, between 1 and 11 arcminutes from the cluster center, gives the same 220 to 148 GHz extrapolation. Fixing T$_{dust}$ and allowing z to vary also gives a similar extrapolation, and both fitting methods result in realistic values for T$_{dust}$ or z. The information we care about is the SED between 220 and 148 GHz, which is given by the shape of the dust SED, meaning the exact fitted values for A, T$_{dust}$, or z are not as important as long as they are realistic. This results in a 28\% of the 220 stack correction. 
+
+From Planck all-sky measurements, the dusty source correlation between 148 and 220 GHz is known to tens of percent. For our second correction, we use the correlation in the CIB power spectra observed at 143 and 217 GHz. \citep{2014A&A...571A..16P} \textbf{equations??} After translating to ACT frequencies, we use the ratio in the power spectra to convert our 220 signal into a correction for the 148 GHz stack. Similarly to the dust SED correction, 28 $\pm$ 7\% of the signal at 220 is carried over into the 148 stack.
+
+\begin{table}
+\caption{Dust SED fit values}
+\label{table:dustfitparam}
+\begin{tabular}{| c || c | c | c | c |}
+\hline 
+model & A & T & z & c220/c148 \\ \hline \hline
+(fix z, 11') & 0.006391  & 31.76 & fixed: 0.934 & 0.280 \\ \hline
+(fix T, 11') & 0.008264 & fixed: 30.0 & 0.827 & 0.280 \\ \hline
+(fix T, 4') & 0.001041 & fixed: 30.0 & 1.001 & 0.283 \\
+\hline
+\end{tabular}
+\caption{Table of dust SED fitted values. The relevant quantity is the ratio of the dust emission at 148 and 220, which is used to extrapolate our 220 GHz signal.}
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	RESULTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results}
+
+We fit our stacked profile for an average M$_{500}$, redshift, and a DC offset from zero, using MCMC simulations and a likelihood that minimizes $\chi^{2}$. The UPP from \cite{2010A&A...517A..92A} with the updated best fit parameters from \cite{2013A&A...550A.131P} is integrated to calculate $y$, which is convolved with the ACT beam and translated into a temperature profile. The best fit parameters are listed in \ref{table:mcmcfitparam}. For the dust-corrected profile we find an average M$_{500}$ of $6.5 \pm 1.4 \cdot 10^{13} M_{\odot}$
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	DISCUSSION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Discussion}
+\subsection{tSZ Power Spectrum}
+For our sample of cluster candidates, with an average mass of M$_{\odot}$, IR fill-in accounts for 50\% of the SZ signal. When comparing the theoretical thermal-SZ power spectrum to observations, there is a deficit in power at high ells. This region of the power spectrum is dominated by low-mass, high-z clusters *cite paper*. If we assume that all clusters in this mass and redshift regime have a similar amount of IR fill-in, this leads to a \#\# $\mu K^{2}$ correction to the tSZ power spectrum, partially accounting for the low observed power. 
+
+\begin{table}
+\label{table:mcmcfitparam}
+\centering
+\caption{Best-fit $M_{500}$, z, offset}
+\begin{tabular}{| c || c | c | c |}
+\hline
+ & M$_{500} (M_{\odot})$ & z & offset $(\mu K)$\\ \hline
+ Uncorrected &  $4.4 \pm 1.3 \cdot 10^{13}$ & $1.3 \pm 0.4$ & $0.83 \pm 0.41$ \\ \hline
+ Dust-corrected & $6.5 \pm 1.4 \cdot 10^{13}$ & $1.2 \pm 0.4$ & $0.77 \pm 0.41$ \\ \hline
+\end{tabular}
+\caption*{}
+\end{table}
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5 \textwidth]{old_chi2_fit_M.pdf}
+\caption{placeholder for best-fit temperature profile from mcmc. how to plot err?}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	CONCLUSIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusions}
+We have presented the stacked SZ profile for a sample of IR-selected low-richness clusters. After removing dust emission, we have found an average M$_{500}$of  $1.11^{+0.21}_{-0.20} \cdot 10^{14} M_{\odot}$, which we will next compare with the average stellar mass measured with SHELA data. This is a first step toward studying characteristics of galaxy clusters over a range of redshifts and masses. In the future, wider and deeper coverage by Advanced ACT will allow this study by observing a large number of clusters, and by increasing overlap with other surveys that probe different cluster properties.
+
+When data from the Spitzer IRAC Equatorial Survey \citep[SpIES,][]{2015AAS...22533618T} becomes public, we will repeat this analysis.  SpIES is shallower than SHELA, but larger, covering an adjacent 100 square degrees of Stripe 82.
+ 
+\bibliography{shela_sz}
+\bibliographystyle{hapj}   
+ 
+\end{document}
