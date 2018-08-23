@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  15 AUG 2018 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  23 AUG 2018 13:46
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1003,6 +1003,9 @@ LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 2503) in paragraph at lines 166--169
 \T1/aer/m/n/9 data, [][]Planck Col-lab-o-ra-tion et al.[][] ([][]2013[][]) up-d
 ate the
@@ -1015,52 +1018,37 @@ Underfull \hbox (badness 1546) in paragraph at lines 166--169
  []
 
 [3]
-<figures/correlation_1600_coadd_act_actpol_148_tophat_both.pdf, id=238, 897.754
-03pt x 391.66103pt>
-File: figures/correlation_1600_coadd_act_actpol_148_tophat_both.pdf Graphic fil
-e (type pdf)
+<figures/correlation_1600_coadd_act_actpol_148_tophat_zbin01_all.pdf, id=238, 9
+70.02402pt x 322.96597pt>
+File: figures/correlation_1600_coadd_act_actpol_148_tophat_zbin01_all.pdf Graph
+ic file (type pdf)
 
-<use figures/correlation_1600_coadd_act_actpol_148_tophat_both.pdf>
-Package pdftex.def Info: figures/correlation_1600_coadd_act_actpol_148_tophat_b
-oth.pdf used on input line 195.
-(pdftex.def)             Requested size: 240.0pt x 104.70404pt.
+<use figures/correlation_1600_coadd_act_actpol_148_tophat_zbin01_all.pdf>
+Package pdftex.def Info: figures/correlation_1600_coadd_act_actpol_148_tophat_z
+bin01_all.pdf used on input line 195.
+(pdftex.def)             Requested size: 420.0pt x 139.83855pt.
 
-<figures/5panel_rawprofs_all_stacks_all_ncut.pdf, id=240, 2023.40071pt x 2538.2
-1051pt>
-File: figures/5panel_rawprofs_all_stacks_all_ncut.pdf Graphic file (type pdf)
- <use figures/5panel_rawprofs_all_stacks_all_ncut.pdf>
-Package pdftex.def Info: figures/5panel_rawprofs_all_stacks_all_ncut.pdf used o
+<figures/5panel_rawprofs_all_stacks_all_rbin.pdf, id=240, 2056.24216pt x 2940.5
+045pt>
+File: figures/5panel_rawprofs_all_stacks_all_rbin.pdf Graphic file (type pdf)
+ <use figures/5panel_rawprofs_all_stacks_all_rbin.pdf>
+Package pdftex.def Info: figures/5panel_rawprofs_all_stacks_all_rbin.pdf used o
 n input line 209.
-(pdftex.def)             Requested size: 489.30017pt x 613.79584pt.
+(pdftex.def)             Requested size: 429.21942pt x 613.79584pt.
 
-<figures/rand_stacks_tophat.pdf, id=241, 412.57191pt x 330.9166pt>
+<figures/rand_stacks_tophat.pdf, id=241, 412.57191pt x 318.45172pt>
 File: figures/rand_stacks_tophat.pdf Graphic file (type pdf)
 
 <use figures/rand_stacks_tophat.pdf>
 Package pdftex.def Info: figures/rand_stacks_tophat.pdf used on input line 217.
 
-(pdftex.def)             Requested size: 252.0pt x 202.12643pt.
+(pdftex.def)             Requested size: 252.0pt x 194.5128pt.
 
 Overfull \hbox (12.0pt too wide) in paragraph at lines 217--218
  [][] 
  []
 
-[4pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.252 
-       <./figures/correlation_1600_coadd_act_actpol_148_tophat_both.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.252 
-       <./figures/5panel_rawprofs_all_stacks_all_ncut.pdf>]
+[4]
 Overfull \hbox (2.45793pt too wide) detected at line 256
 $\LMS/ntxsy/m/n/9 D[] \U/ntxmia/m/it/9 = \OML/ntxmi/m/it/9 A[][][][][];  \LMS/n
 txsy/m/n/9 D[] \U/ntxmia/m/it/9 = \OML/ntxmi/m/it/9 A[][][][][];$  
@@ -1073,109 +1061,132 @@ $
  []
 
 
-Underfull \vbox (badness 2564) has occurred while \output is active []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 260--264
 \T1/aer/m/n/9 where $\OML/ntxmi/m/it/9 B[]\LMS/ntxsy/m/n/9 ¹\OML/ntxmi/m/it/9 T
 []\LMS/ntxsy/m/n/9 º$ \T1/aer/m/n/9 is the Planck func-tion, $\OML/ntxmi/m/it/9
  g\LMS/ntxsy/m/n/9 ¹\OML/ntxmi/m/it/9 ^^W\LMS/ntxsy/m/n/9 º \U/ntxmia/m/it/9 =
  []
 
-<figures/MLprof_ncut_all.pdf, id=387, 779.97649pt x 1194.65536pt>
+
+Underfull \vbox (badness 4242) has occurred while \output is active []
+
+ [5pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.317 
+       <./figures/correlation_1600_coadd_act_actpol_148_tophat_zbin01_all.pdf>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.317 
+       <./figures/5panel_rawprofs_all_stacks_all_rbin.pdf>]
+<figures/MLprof_ncut_all.pdf, id=421, 774.95773pt x 1189.80913pt>
 File: figures/MLprof_ncut_all.pdf Graphic file (type pdf)
 
 <use figures/MLprof_ncut_all.pdf>
 Package pdftex.def Info: figures/MLprof_ncut_all.pdf used on input line 321.
-(pdftex.def)             Requested size: 252.0pt x 385.97977pt.
+(pdftex.def)             Requested size: 252.0pt x 386.90125pt.
 
 Overfull \hbox (12.0pt too wide) in paragraph at lines 321--322
  [][] 
  []
 
-[6pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
+
+<figures/corner_0180808_nw_12_ns_10000_mbat_tophat_11_arcmin_zbin01_rbin2_cut_1
+000.pdf, id=422, 568.70506pt x 569.9211pt>
+File: figures/corner_0180808_nw_12_ns_10000_mbat_tophat_11_arcmin_zbin01_rbin2_
+cut_1000.pdf Graphic file (type pdf)
+
+<use figures/corner_0180808_nw_12_ns_10000_mbat_tophat_11_arcmin_zbin01_rbin2_c
+ut_1000.pdf>
+Package pdftex.def Info: figures/corner_0180808_nw_12_ns_10000_mbat_tophat_11_a
+rcmin_zbin01_rbin2_cut_1000.pdf used on input line 333.
+(pdftex.def)             Requested size: 240.0pt x 240.51314pt.
+ [7pdfTeX warning (ext4): destination with the same identifier (name{table.1}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.324 \end{figure}
-                   <./figures/rand_stacks_tophat.pdf>]
-<figures/corner_171219_nw_12_ns_10000_mbat_tophat_11_arcmin_ncut_10_20_cut_1000
-.pdf, id=449, 567.72281pt x 570.40146pt>
-File: figures/corner_171219_nw_12_ns_10000_mbat_tophat_11_arcmin_ncut_10_20_cut
-_1000.pdf Graphic file (type pdf)
+l.353 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3}) has been already used, duplicate ignored
 
-<use figures/corner_171219_nw_12_ns_10000_mbat_tophat_11_arcmin_ncut_10_20_cut_
-1000.pdf>
-Package pdftex.def Info: figures/corner_171219_nw_12_ns_10000_mbat_tophat_11_ar
-cmin_ncut_10_20_cut_1000.pdf used on input line 333.
-(pdftex.def)             Requested size: 240.0pt x 241.12492pt.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.353 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4}) has been already used, duplicate ignored
 
-<figures/corner_171219_nw_12_ns_10000_mbat_tophat_11_arcmin_ncut_gt20_cut_1000.
-pdf, id=450, 567.63698pt x 570.46536pt>
-File: figures/corner_171219_nw_12_ns_10000_mbat_tophat_11_arcmin_ncut_gt20_cut_
-1000.pdf Graphic file (type pdf)
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.353 
+       <./figures/rand_stacks_tophat.pdf> <./figures/MLprof_ncut_all.pdf
 
-<use figures/corner_171219_nw_12_ns_10000_mbat_tophat_11_arcmin_ncut_gt20_cut_1
-000.pdf>
-Package pdftex.def Info: figures/corner_171219_nw_12_ns_10000_mbat_tophat_11_ar
-cmin_ncut_gt20_cut_1000.pdf used on input line 334.
-(pdftex.def)             Requested size: 240.0pt x 241.19545pt.
- <figures/chains2y500_10_20.pdf, id=459, 399.41846pt x 376.64401pt>
-File: figures/chains2y500_10_20.pdf Graphic file (type pdf)
+pdfTeX warning: pdflatex (file ./figures/MLprof_ncut_all.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>] <figures/chains2y500_zbin01_rbin0.pdf, id=536, 399.41846pt x 376.64401pt>
+File: figures/chains2y500_zbin01_rbin0.pdf Graphic file (type pdf)
 
-<use figures/chains2y500_10_20.pdf>
-Package pdftex.def Info: figures/chains2y500_10_20.pdf used on input line 358.
-(pdftex.def)             Requested size: 240.0pt x 226.32147pt.
+<use figures/chains2y500_zbin01_rbin0.pdf>
+Package pdftex.def Info: figures/chains2y500_zbin01_rbin0.pdf used on input lin
+e 357.
+(pdftex.def)             Requested size: 192.00073pt x 181.05717pt.
 
-<figures/chains2y500_gt20.pdf, id=460, 405.80168pt x 376.64401pt>
-File: figures/chains2y500_gt20.pdf Graphic file (type pdf)
+<figures/chains2y500_zbin01_rbin1.pdf, id=537, 399.41846pt x 376.64401pt>
+File: figures/chains2y500_zbin01_rbin1.pdf Graphic file (type pdf)
 
-<use figures/chains2y500_gt20.pdf>
-Package pdftex.def Info: figures/chains2y500_gt20.pdf used on input line 359.
-(pdftex.def)             Requested size: 240.0pt x 222.75252pt.
+<use figures/chains2y500_zbin01_rbin1.pdf>
+Package pdftex.def Info: figures/chains2y500_zbin01_rbin1.pdf used on input lin
+e 358.
+(pdftex.def)             Requested size: 192.00073pt x 181.05717pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<figures/chains2y500_zbin01_rbin2.pdf, id=538, 408.67178pt x 376.64401pt>
+File: figures/chains2y500_zbin01_rbin2.pdf Graphic file (type pdf)
 
+<use figures/chains2y500_zbin01_rbin2.pdf>
+Package pdftex.def Info: figures/chains2y500_zbin01_rbin2.pdf used on input lin
+e 359.
+(pdftex.def)             Requested size: 192.00073pt x 176.95949pt.
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+ has been already used, duplicate ignored
 
-<figures/M500_lambda_shela_sptvsrm.pdf, id=479, 432.6363pt x 321.70763pt>
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.372 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.372 
+       <./figures/corner_0180808_nw_12_ns_10000_mbat_tophat_11_arcmin_zbin01_rb
+in2_cut_1000.pdf> <./figures/chains2y500_zbin01_rbin0.pdf
+
+pdfTeX warning: pdflatex (file ./figures/chains2y500_zbin01_rbin0.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/chains2y500_zbin01_rbin1.pdf
+
+pdfTeX warning: pdflatex (file ./figures/chains2y500_zbin01_rbin1.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/chains2y500_zbin01_rbin2.pdf
+
+pdfTeX warning: pdflatex (file ./figures/chains2y500_zbin01_rbin2.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+>] <figures/M500_lambda_shela_sptvsrm.pdf, id=750, 432.6363pt x 321.70763pt>
 File: figures/M500_lambda_shela_sptvsrm.pdf Graphic file (type pdf)
 
 <use figures/M500_lambda_shela_sptvsrm.pdf>
 Package pdftex.def Info: figures/M500_lambda_shela_sptvsrm.pdf used on input li
 ne 429.
 (pdftex.def)             Requested size: 240.0pt x 178.46638pt.
- [7pdfTeX warning (ext4): destination with the same identifier (name{table.1}) 
-has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.436 
-      ] [8pdfTeX warning (ext4): destination with the same identifier (name{fig
-ure.4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.439 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{figure.5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.439 \begin{equation}
-                       <./figures/MLprof_ncut_all.pdf> <./figures/corner_171219
-_nw_12_ns_10000_mbat_tophat_11_arcmin_ncut_10_20_cut_1000.pdf
-
-pdfTeX warning: pdflatex (file ./figures/corner_171219_nw_12_ns_10000_mbat_toph
-at_11_arcmin_ncut_10_20_cut_1000.pdf): PDF inclusion: multiple pdfs with page g
-roup included in a single page
-> <./figures/corner_171219_nw_12_ns_10000_mbat_tophat_11_arcmin_ncut_gt20_cut_1
-000.pdf
-
-pdfTeX warning: pdflatex (file ./figures/corner_171219_nw_12_ns_10000_mbat_toph
-at_11_arcmin_ncut_gt20_cut_1000.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
->]
 Overfull \hbox (11.70598pt too wide) detected at line 441
 $\LMS/ntxsy/m/n/9 h[] \OML/ntxmi/m/it/9 ^^U\LMS/ntxsy/m/n/9 j\OML/ntxmi/m/it/9 
 M[]; z\LMS/ntxsy/m/n/9 i \U/ntxmia/m/it/9 = [] \OML/ntxmi/m/it/9 A[] \U/ntxmia/
@@ -1183,29 +1194,16 @@ m/it/9 ý \OML/ntxmi/m/it/9 B[] [] [][][] \U/ntxmia/m/it/9 ý \OML/ntxmi/m/it/9 C
 [] [] [][][]$  
  []
 
-[9pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) 
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.453 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-7}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.453 
-       <./figures/chains2y500_10_20.pdf> <./figures/chains2y500_gt20.pdf
-
-pdfTeX warning: pdflatex (file ./figures/chains2y500_gt20.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
-> <./figures/M500_lambda_shela_sptvsrm.pdf
-
-pdfTeX warning: pdflatex (file ./figures/M500_lambda_shela_sptvsrm.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
->] (./shela_sz.bbl
+       <./figures/M500_lambda_shela_sptvsrm.pdf>] (./shela_sz.bbl [10]
 LaTeX Font Info:    Try loading font information for T1+aett on input line 75.
- (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aett.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
 Underfull \hbox (badness 6284) in paragraph at lines 74--77
@@ -1225,7 +1223,6 @@ Underfull \hbox (badness 1199) in paragraph at lines 98--101
 []\T1/aer/m/n/8 Erler J., Basu K., Chluba J., Bertoldi F., 2017, preprint,
  []
 
-[10]
 
 Package hyperref Warning: Suppressing empty link on input line 181.
 
@@ -1255,12 +1252,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 494.
  ) 
 Here is how much of TeX's memory you used:
  10116 strings out of 493013
- 143375 string characters out of 6135682
- 246048 words of memory out of 5000000
+ 143270 string characters out of 6135682
+ 247278 words of memory out of 5000000
  13227 multiletter control sequences out of 15000+600000
  121747 words of font info for 266 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,15n,37p,2073b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,15n,37p,2188b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1291,10 +1288,10 @@ f/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /txfonts/txmia.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsy
 s.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on shela_sz.pdf (11 pages, 686705 bytes).
+Output written on shela_sz.pdf (11 pages, 626863 bytes).
 PDF statistics:
- 1037 PDF objects out of 1200 (max. 8388607)
- 665 compressed objects within 7 object streams
+ 1059 PDF objects out of 1200 (max. 8388607)
+ 666 compressed objects within 7 object streams
  101 named destinations out of 1000 (max. 500000)
  182 words of extra memory for PDF output out of 10000 (max. 10000000)
 
