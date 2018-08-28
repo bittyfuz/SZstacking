@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex shela_sz"] 1535476341 "shela_sz.aux" "shela_sz.bbl" "shela_sz" 1535476342
+["bibtex shela_sz"] 1535483756 "shela_sz.aux" "shela_sz.bbl" "shela_sz" 1535483757
   "./mnras.bst" 1535463094 43377 4db2f843e4986670b152898ac35c448e ""
-  "shela_sz.aux" 1535476341 16423 2e14a23e5f965ea628e602f8adfed7f9 ""
+  "shela_sz.aux" 1535483757 16423 43cef805d615a019fafcaa4e5298f682 ""
   "shela_sz.bcf" 0 -1 0 ""
   "shela_sz.bib" 1535463094 63729 158d8d47359c0deb97d66ba45453c322 ""
   (generated)
-  "shela_sz.bbl"
   "shela_sz.blg"
-["pdflatex"] 1535476341 "shela_sz.tex" "shela_sz.pdf" "shela_sz" 1535476342
+  "shela_sz.bbl"
+["pdflatex"] 1535483756 "shela_sz.tex" "shela_sz.pdf" "shela_sz" 1535483757
   "/etc/texmf/web2c/texmf.cnf" 1515831263 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1422827479 2083 60e36f8eac802fcaf19eabe2633b406e ""
@@ -237,14 +237,14 @@
   "figures/MLprof_ncut_all.pdf" 1535463094 25573 e8ff3635ebb40489f9ac6f080dc50896 ""
   "figures/corner_0180808_nw_12_ns_10000_mbat_tophat_11_arcmin_zbin01_rbin2_cut_1000.pdf" 1535463094 93704 ae2c61d15b421f3f447d7b25d0e750a1 ""
   "figures/correlation_1600_coadd_act_actpol_148_tophat_zbin01_all.pdf" 1535463095 24617 cdc9e96a525c6bb9737065105d342307 ""
-  "figures/rand_stacks_tophat.pdf" 1535463095 18478 e4d23b1977f91d9d792138199aa9213e ""
+  "figures/rand_stacks_tophat.pdf" 1535482651 18984 1f088f2498030ab7b907551f1e74d643 ""
   "mnras.cls" 1535463094 62178 771897fe06ecb20a6e140bd3b990ffc5 ""
-  "shela_sz.aux" 1535476341 16423 2e14a23e5f965ea628e602f8adfed7f9 ""
-  "shela_sz.bbl" 1535476341 15041 72adb9a380f1bc9e37553aa30c3c696e "bibtex shela_sz"
-  "shela_sz.out" 1535476341 1046 3456f821d246759e644d20d6ed1cff63 ""
-  "shela_sz.tex" 1535476076 53014 69e812e2d69526ad6f661c1e51f7b85f ""
+  "shela_sz.aux" 1535483757 16423 43cef805d615a019fafcaa4e5298f682 ""
+  "shela_sz.bbl" 1535483756 15041 72adb9a380f1bc9e37553aa30c3c696e "bibtex shela_sz"
+  "shela_sz.out" 1535483757 1046 3456f821d246759e644d20d6ed1cff63 ""
+  "shela_sz.tex" 1535483676 53064 34d75522a4bd4d79a60ac661c007c41c ""
   (generated)
-  "shela_sz.out"
   "shela_sz.log"
   "shela_sz.aux"
   "shela_sz.pdf"
+  "shela_sz.out"
